@@ -1,5 +1,7 @@
 package com.bcafinance;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         int a, b, c; // declaration variable
@@ -66,17 +68,17 @@ public class Main {
         // yang di bagi
         // System.out.println(hasil);
 
-        // String strX = "";
-        // int intX = 0;
-        //
-        // System.out.print("Masukkan Kata : ");
-        // Scanner scanner = new Scanner(System.in);
-        // strX = scanner.nextLine();
-        // System.out.println("Anda Memasukkan Kata "+strX);
-        //
-        // System.out.print("Masukkan Angka : ");
-        // intX = scanner.nextInt();
-        // System.out.println("Anda Memasukkan Angka "+intX);
+//         String strX = "";
+//         int intX = 0;
+//
+//         System.out.print("Masukkan Kata : ");
+//         Scanner scanner = new Scanner(System.in);
+//         strX = scanner.nextLine();
+//         System.out.println("Anda Memasukkan Kata "+strX);
+//
+//         System.out.print("Masukkan Angka : ");
+//         intX = scanner.nextInt();
+//         System.out.println("Anda Memasukkan Angka "+intX);
 
         boolean isValid = true;
         String strX = "Yes";
@@ -90,5 +92,7 @@ public class Main {
             System.out.println("State 3");
         }
 
+        String hasil= ("asd"=="asd")?"True":"False";
+        System.out.println(hasil);
     }
 }
