@@ -86,7 +86,7 @@ public class UjianJF11 {
     }
     public  static String no3(){
         StringBuilder no = new StringBuilder();
-        int intRand= random.nextInt(100,100000);
+        int intRand= random.nextInt(100,10000000);
         String digit3 ="";
         digit3+= no.append(intRand);
         return digit3;
