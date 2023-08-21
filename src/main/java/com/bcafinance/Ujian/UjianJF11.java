@@ -33,8 +33,8 @@ public class UjianJF11 {
 
         for (int i=0;i<pick;i++){
 
-//            int randPrefix =  random.nextInt(1,3);
-            int randPrefix =  1;
+            int randPrefix =  random.nextInt(1,3);
+//            int randPrefix =  1;
             String firstNum = "";
             String noHP="";
             String noHP2="";
