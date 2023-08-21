@@ -86,10 +86,27 @@ public class UjianJF11 {
     }
     public  static String no3(){
         StringBuilder no = new StringBuilder();
-        int intRand= random.nextInt(100,10000000);
         String digit3 ="";
-        digit3+= no.append(intRand);
-        return digit3;
+        int randDigit = random.nextInt(1,5);
+        if (randDigit==1){
+            int intRand= random.nextInt(100,1000);
+            digit3+= no.append(intRand);
+            return digit3;
+        }else if (randDigit==2){
+
+            int intRand= random.nextInt(100,10000);
+            digit3+= no.append(intRand);
+            return digit3;
+        }else if (randDigit==3){
+
+            int intRand= random.nextInt(100,100000);
+            digit3+= no.append(intRand);
+            return digit3;
+        }else {
+            int intRand= random.nextInt(100,10000000);
+            digit3+= no.append(intRand);
+            return digit3;
+        }
 
     }
 }
