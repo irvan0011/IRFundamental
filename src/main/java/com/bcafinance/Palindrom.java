@@ -1,9 +1,12 @@
 package com.bcafinance;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.Scanner;
 
 public class Palindrom {
     public static void main(String[] args) {
+
         palTest();
 
     }
@@ -36,7 +39,9 @@ public class Palindrom {
             palTest();
         }else {
             System.out.println("Bukan Palindrom !!");
+
             palTest();
         }
     }
+
 }
