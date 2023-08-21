@@ -87,26 +87,12 @@ public class UjianJF11 {
     public  static String no3(){
         StringBuilder no = new StringBuilder();
         String digit3 ="";
-        int randDigit = random.nextInt(1,5);
-        if (randDigit==1){
-            int intRand= random.nextInt(100,1000);
-            digit3+= no.append(intRand);
-            return digit3;
-        }else if (randDigit==2){
-
-            int intRand= random.nextInt(100,10000);
-            digit3+= no.append(intRand);
-            return digit3;
-        }else if (randDigit==3){
-
-            int intRand= random.nextInt(100,100000);
-            digit3+= no.append(intRand);
-            return digit3;
-        }else {
-            int intRand= random.nextInt(100,10000000);
-            digit3+= no.append(intRand);
-            return digit3;
-        }
+        int randDigit = random.nextInt(0,5);
+        int [] digit ={1000,10000,100000,10000000,10000000};
+        int rand= digit[randDigit];
+        int intRand= random.nextInt(100,rand);
+        digit3+= no.append(intRand);
+        return digit3;
 
     }
 }
