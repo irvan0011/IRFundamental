@@ -80,19 +80,23 @@ public class Main {
 //         intX = scanner.nextInt();
 //         System.out.println("Anda Memasukkan Angka "+intX);
 
-        boolean isValid = true;
-        String strX = "Yes";
-        int intZ = 80;
+//        boolean isValid = true;
+//        String strX = "Yes";
+//        int intZ = 80;
+//
+//        if (isValid) {
+//            System.out.println("State 1");
+//        } else if (strX.equals("Yes")) {
+//            System.out.println("State 2");
+//        } else {
+//            System.out.println("State 3");
+//        }
+//
+//        String hasil= ("asd"=="asd")?"True":"False";
+//        System.out.println(hasil);
 
-        if (isValid) {
-            System.out.println("State 1");
-        } else if (strX.equals("Yes")) {
-            System.out.println("State 2");
-        } else {
-            System.out.println("State 3");
-        }
-
-        String hasil= ("asd"=="asd")?"True":"False";
-        System.out.println(hasil);
+        System.out.println("BuaH".compareTo("Suah"));
+        Palindrom palindrom = new Palindrom();
+        palindrom.palTest();
     }
 }
